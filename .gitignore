@@ -1,0 +1,24 @@
+# Environments
+.venv/
+venv/
+env/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Datasets (do not commit large image datasets to git)
+dataset/
+data/
+archive.zip
+*.zip
+
+# Local caches
+.keras/
+.gradio/
+
+# OS specific
+Thumbs.db
+.DS_Store
